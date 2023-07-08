@@ -12,8 +12,8 @@ transformers==4.25.1
 ```
 ### Setting
 #### Task
-* [Task l : PAWS-KR](https://klue-benchmark.com/tasks/68/data/description)
-* [Task 2 : KLUE-NLI](https://github.com/monologg/KoELECTRA/tree/master/finetune/data/paws)
+* [Task l : PAWS-KR](https://github.com/monologg/KoELECTRA/tree/master/finetune/data/paws)
+* [Task 2 : KLUE-NLI](https://klue-benchmark.com/tasks/68/data/description)
 
 #### Shared/Core PLM Model
 * [klue/roberta-base](https://huggingface.co/klue/roberta-base)
