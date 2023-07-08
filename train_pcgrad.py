@@ -46,12 +46,12 @@ def main(args):
 
     # Task 0 (PAWS) Dataset & DataLoader
     task0_train = PAWSDataset(args.paws_train_path, tokenizer, max_n=20000)
-    task0_valid = PAWSDataset(args.paws_valid_path, tokenizer, max_n=20000)
+    task0_valid = PAWSDataset(args.paws_valid_path, tokenizer)
     task0_trainloader = DataLoader(task0_train, batch_size=args.batch_size, shuffle=True)
     task0_validloader = DataLoader(task0_valid, batch_size=args.batch_size, shuffle=False)
 
     # Task 1 (KLUE-NLI) Dataset & DataLoader
-    task1_train = KlueNLIDataset(args.nli_train_path , tokenizer)
+    task1_train = KlueNLIDataset(args.nli_train_path , tokenizer, max_n=20000)
     task1_valid = KlueNLIDataset(args.nli_valid_path, tokenizer)
     task1_trainloader = DataLoader(task1_train, batch_size=args.batch_size, shuffle=True)
     task1_validloader = DataLoader(task1_valid, batch_size=args.batch_size, shuffle=False)
