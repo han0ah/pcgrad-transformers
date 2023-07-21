@@ -1,5 +1,5 @@
 # pcgrad-transformers
-Implementaion of experiment for applying [PCGrad](https://arxiv.org/abs/2001.06782) method on robeta-based model &amp; multi NLP tasks. Refer to https://han0ah.tistory.com/1 for details.
+Implementaion of experiment for applying [PCGrad](https://arxiv.org/abs/2001.06782) method on robeta-based model &amp; multi NLP tasks. Refer to [https://han0ahblog.tistory.com/2](https://han0ahblog.tistory.com/2) for details.
 
 ### Note
 [pcgrad.py](pcgrad.py) is copy of https://github.com/WeiChengTseng/Pytorch-PCGrad/blob/master/pcgrad.py
